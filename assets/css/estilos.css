@@ -1,13 +1,26 @@
+/* Modo Claro */
+@media (prefers-color-scheme: light) {
+  :root {
+      --body-bg: #FFFFFF;
+      --body-color: #000000;
+  }
+}
+
 body {
-  background-color: #F9F1EF;
+  background: var(--body-bg);
+    color: var(--body-color);
+  
 }
 
 h1 {
-  color: plum;
+  background: var(--body-bg);
+    color: var(--body-color);
   text-align: center;
 }
 
 li {
+  background: var(--body-bg);
+    color: var(--body-color);
   font-family: verdana;
   font-size: 20px;
   
@@ -19,14 +32,14 @@ li {
     padding: 0;
     overflow: hidden;
     list-style-type: none;
-    background-color: #F6B2E3;
+    background: var(--body-bg);
+    color: var(--body-color);
   }
   
   
   button{
-    font-family: comic sans-serif;
-   font-size: 20px;
-   background-color: #E6B2F6;
+    background: var(--body-bg);
+    color: var(--body-color);
   }
   
   .miJumbo {
@@ -35,6 +48,8 @@ li {
     background-color: #e9ecef;
     border-radius: 0.5rem;
     text-align: center;
+    background: var(--body-bg);
+    color: var(--body-color);
   }
   
   
