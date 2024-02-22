@@ -1,43 +1,55 @@
-/* Modo Oscuro*/
-@media (prefers-color-scheme: dark) {
+/* Modo Claro */
+@media (prefers-color-scheme: light) {
   :root {
-      --body-bg: #000000;
+      --body-bg: #000000 ;
       --body-color: #FFFFFF;
   }
 }
+
 body {
   background: var(--body-bg);
-  color: var(--body-color);
+    color: var(--body-color);
+  
 }
 
 h1 {
   background: var(--body-bg);
-  color: var(--body-color);
+    color: var(--body-color);
   text-align: center;
 }
 
-li, ul {
+li {
   background: var(--body-bg);
-  color: var(--body-color);
+    color: var(--body-color);
   font-family: verdana;
   font-size: 20px;
   
 }
 
-
+ 
   ul {
-    background: var(--body-bg);
-    color: var(--body-color);
     margin: 0;
     padding: 0;
     overflow: hidden;
     list-style-type: none;
-
+    background: var(--body-bg);
+    color: var(--body-color);
   }
-
-
+  
+  
   button{
     background: var(--body-bg);
     color: var(--body-color);
-
   }
+  
+  .miJumbo {
+    margin-top: 1rem;
+    padding: 32px 16px;
+    background-color: #e9ecef;
+    border-radius: 0.5rem;
+    text-align: center;
+    background: var(--body-bg);
+    color: var(--body-color);
+  }
+  
+  
